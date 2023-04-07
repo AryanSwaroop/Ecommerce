@@ -7,3 +7,72 @@
   height: 100px;
   width: auto;
 }
+
+.newImage {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #CE5959;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #CE5959;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #CE5959;}
+
+.footer{
+  color: #ddd;
+  width: 100%;
+  height: 70px;
+  background-color: #002B5B;
+}
+
+/* .container {
+  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: 70px calc(100vh - 70px);
+} */
